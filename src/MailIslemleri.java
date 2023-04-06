@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class MailIslemleri {
 
-    private String mailAdresim = "xxx@gmail.com";
+    private String mailAdresim = "yyy@gmail.com";
     private String mailSifrem = "xxx";
     private String sifreKurtarmaKodu = "";
     private String mailIcerıgı_1 = "Merhaba,\n\nŞifrenizi Öğrenmek İçin Aşağıdaki Kodu Kullanınız;\n\n";
@@ -40,9 +40,7 @@ public class MailIslemleri {
         session = Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-
                 return new PasswordAuthentication(mailAdresim, mailSifrem);
-
             }
         });
     }

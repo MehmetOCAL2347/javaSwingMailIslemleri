@@ -5,7 +5,7 @@ public class Main {
 
         MailIslemleri mail = new MailIslemleri();
         try {
-            mail.mailGonder("yyyy@gmail.com");
+            mail.mailGonder("xxxxx@gmail.com");
         } catch (MessagingException e) {
             throw new RuntimeException(e);
         }

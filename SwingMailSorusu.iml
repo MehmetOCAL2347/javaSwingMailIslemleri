@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../activation-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../activation-1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../mail-1.4.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../javax.mail-api-1.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../mail-1.4.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
